@@ -7,9 +7,7 @@ $('button').on('click', function() {
     f = Number(f) / 100
     T = t * 9 / 5 + 32
 
-    //   DI = T - ( 0.55 - 0.55f ) ( T - 58 )
     DI = T - (0.55 - 0.55 * f) * (T - 58)
-
 
     $('#result').val((DI.toFixed(1)))
 
@@ -63,11 +61,6 @@ $('button').on('click', function() {
     }
 
     $('#emoji_').append($face)
-
-    if (DI > 85) {
-
-    }
-
 
 
 })
