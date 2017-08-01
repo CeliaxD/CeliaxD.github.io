@@ -458,7 +458,7 @@ var whole = function() {
                         roundTHREE();
                     })
                 } else {
-                    money = money - 100
+                    money = money - 50
                     $('#result').val(+money)
                     console.log(money)
                     Lose();
@@ -476,7 +476,7 @@ var whole = function() {
                         roundTHREE();
                     })
                 } else {
-                    money = money - 100
+                    money = money - 50
                     $('#result').val(+money)
                     console.log(money)
                     Lose();
