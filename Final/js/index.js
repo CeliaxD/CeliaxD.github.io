@@ -26,8 +26,8 @@ var dream = function() {
     $('body').append($dream);
     $restart = $('<button>').attr({ 'id': 'restart', 'type': 'button', 'class': 'btn btn-primary' });
     $restart.append("重玩一次");
-    $('#restart').append($deal);
-    $('#body').on('click', function() {
+    $('body').append($restart);
+    $('#restart').on('click', function() {
         location.reload();
     })
 }
@@ -40,8 +40,8 @@ var HappyEnding = function() {
     $('body').append($end)
     $restart = $('<button>').attr({ 'id': 'restart', 'type': 'button', 'class': 'btn btn-primary' });
     $restart.append("重玩一次");
-    $('#restart').append($deal);
-    $('#body').on('click', function() {
+    $('body').append($restart);
+    $('#restart').on('click', function() {
         location.reload();
     })
 }
