@@ -11,7 +11,7 @@ var time = 0
 //檢查錢夠不夠
 var verify = function() {
 
-    if (money >= 1000) {
+    if (money >= 800) {
         HappyEnding();
     }
 }
