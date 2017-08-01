@@ -1,0 +1,76 @@
+#about {
+    background-image: url(../img/Start)
+}
+
+.jumbotron {
+    /* 設定背景顏色 */
+    background-color: #093489;
+    /* 設定文字顏色 */
+    color: white;
+}
+
+.text-vertical-center {
+    align-content: middle;
+    width: 100%;
+}
+
+.btn-dark {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#plot {
+    color: white;
+    text-shadow: 2px 2px 3px red;
+}
+
+#casino {
+    color: #ff9955;
+    text-shadow: 2px 2px 3px white;
+}
+
+b {
+    font-size: 350%
+}
+
+.h5 {
+    vertical-align: middle;
+}
+
+p {
+    font-size: 150%
+}
+
+div.item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: #14289c;
+    border-style: solid;
+    border-width: 1px;
+    /* box-shadow: 4px 5px 17px 1px black; */
+    box-shadow: inset -3px -2px 5px 0px rgba(33, 150, 243, 0.82);
+    background-color: rgb(188, 220, 245);
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    width: 40px;
+}
+
+#queen {
+    vertical-align: middle;
+}
+
+#data {
+    align-content: center;
+    align-self: center;
+    height: auto;
+    min-height: 56px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.col-9 {
+    max-height: 30%;
+}
