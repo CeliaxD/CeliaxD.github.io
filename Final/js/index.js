@@ -21,14 +21,15 @@ var verify = function() {
 var dream = function() {
     $('body').empty()
         // <div class="container text-center">
-    $div = $('<div>').attr({ 'id': 'div', 'class': 'container text-center' })
+    $('body').attr({ 'id': 'theEnd1' })
+    $div = $('<div>').attr({ 'id': 'div1', 'class': 'container text-center' })
     $('body').append($div);
     $end = $('<p>')
     $end.append("<br>" + "因為愛麗絲最後只賺了" + money + "萬元，付不出贖金" + "<br>" + "紅心皇后準備將紅心騎士斬首，並派了一群紙牌士兵要把愛麗絲趕出去，" + "<br>" + "在一片混亂中，愛麗絲赫然驚醒，發現自己坐在大樹下，姐姐正在喚她回家" + "<br>" + "「啊，原來是一場夢啊」愛麗絲心想" + "<br>" + "「還不快點回家，就要被媽媽罵囉」" + "<br>" + "「吶，姊姊，我跟你說，我剛剛做了一個好詭異的惡夢......」" + "<br>");
-    $('#div').append($end)
+    $('#div1').append($end)
     $restart = $('<button>').attr({ 'id': 'restart', 'type': 'button', 'class': 'btn btn-primary' });
     $restart.append("重玩一次");
-    $('#div').append($restart);
+    $('#div1').append($restart);
     $('#restart').on('click', function() {
         location.reload();
     })
@@ -38,14 +39,15 @@ var dream = function() {
 var HappyEnding = function() {
     $('body').empty()
         // <div class="container text-center">
-    $div = $('<div>').attr({ 'id': 'div', 'class': 'container text-center' })
+    $('body').attr({ 'id': 'theEnd' })
+    $div = $('<div>').attr({ 'id': 'div2', 'class': 'container text-center' })
     $('body').append($div);
     $end = $('<p>')
     $end.append("<br>" + "「哼！竟然賺到了" + money + "萬元是嗎？" + "這次就先放過你們吧！」" + "<br>" + "紅心皇后招手示意手下釋放紅心騎士後，便不甘心地轉身離去" + "<br>" + "愛麗絲上前攙扶甫受驚嚇的騎士，帶騎士到花園休息" + "<br>" + "「感謝你的救命之恩」紅心騎士說道，並以高跪姿托起愛麗絲的手，欲獻上一個吻以示感激" + "<br>" + "愛麗絲心跳加速，赫然驚醒，發現自己坐在大樹下，姐姐正在喚她回家" + "<br>" + "「啊，原來是一場夢啊」愛麗絲心想" + "<br>" + "「還不快點回家，就要被媽媽罵囉」" + "<br>" + "「吶，姊姊，我跟你說，我剛剛做了一個好美的夢......」" + "<br>");
-    $('#div').append($end)
+    $('#div2').append($end)
     $restart = $('<button>').attr({ 'id': 'restart', 'type': 'button', 'class': 'btn btn-primary' });
     $restart.append("重玩一次");
-    $('#div').append($restart);
+    $('#div2').append($restart);
     $('#restart').on('click', function() {
         location.reload();
     })
