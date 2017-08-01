@@ -339,25 +339,25 @@ var whole = function() {
                 $('#A').on('click', function() {
                     if (A == Math.ceil(card[0] / 4)) {
                         money = money + 400
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                         verify()
                         winEND();
                     } else {
                         Lose();
                         money = money - 250
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                     }
                 })
                 $('#B').on('click', function() {
                     if (B == Math.ceil(card[0] / 4)) {
                         money = money + 400
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                         verify()
                         winEND();
                     } else {
                         Lose();
                         money = money - 250
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                     }
                 })
 
@@ -389,26 +389,26 @@ var whole = function() {
                 $('#A').on('click', function() {
                     if (C == Math.ceil(card[0] / 4)) {
                         money = money + 400
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                         verify()
                         winEND();
                     } else {
                         Lose();
                         money = money - 250
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                     }
                 })
 
                 $('#B').on('click', function() {
                     if (D == Math.ceil(card[0] / 4)) {
                         money = money + 400
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                         verify()
                         winEND();
                     } else {
                         Lose();
                         money = money - 250
-                        $('#result').val(money)
+                        $('#result').val(money + "萬元")
                     }
                 })
 
@@ -450,7 +450,7 @@ var whole = function() {
             $('#R').on('click', function() {
                 if (red > black) {
                     money = money + 200
-                    $('#result').val(+money)
+                    $('#result').val(+money + "萬元")
                     console.log(money)
                     verify()
                     Win2();
@@ -459,7 +459,7 @@ var whole = function() {
                     })
                 } else {
                     money = money - 50
-                    $('#result').val(+money)
+                    $('#result').val(+money + "萬元")
                     console.log(money)
                     Lose();
                 }
@@ -468,7 +468,7 @@ var whole = function() {
             $('#B').on('click', function() {
                 if (black > red) {
                     money = money + 200
-                    $('#result').val(+money)
+                    $('#result').val(+money + "萬元")
                     console.log(money)
                     verify()
                     Win2();
@@ -477,7 +477,7 @@ var whole = function() {
                     })
                 } else {
                     money = money - 50
-                    $('#result').val(+money)
+                    $('#result').val(+money + "萬元")
                     console.log(money)
                     Lose();
                 }
@@ -492,7 +492,7 @@ var whole = function() {
             if (pattern == 1) {
                 Win1();
                 money = money + 100
-                $('#result').val(+money)
+                $('#result').val(+money + "萬元")
                 console.log(money)
                 verify()
                 $('#Y').on('click', function() {
@@ -512,7 +512,7 @@ var whole = function() {
             if (pattern == 2) {
                 $('#Q').empty();
                 money = money + 100
-                $('#result').val(+money)
+                $('#result').val(+money + "萬元")
                 verify()
                 Win1();
                 $('#Y').on('click', function() {
@@ -532,7 +532,7 @@ var whole = function() {
             if (pattern == 3) {
                 $('#Q').empty();
                 money = money + 100
-                $('#result').val(+money)
+                $('#result').val(+money + "萬元")
                 verify()
                 Win1();
                 $('#Y').on('click', function() {
