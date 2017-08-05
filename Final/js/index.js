@@ -127,12 +127,12 @@ var TwoPair = function(card) {
     var A = rand(1, 13)
     var B = rand(1, 13)
     var C = rand(1, 13)
-    console.log(A + "," + B + "," + C)
     for (; A == B || B == C || A == C;) {
         B = rand(1, 13)
         C = rand(1, 13)
     }
-    //AA
+    console.log(A + "," + B + "," + C)
+        //AA
     AA = []
     for (i = 0; i < 4; i++) {
         AA.push((A - 1) * 4 + i + 1)
@@ -300,6 +300,12 @@ var whole = function() {
             console.log("win")
             $winEND = $('<h5>').append("好吧" + "<br>" + "算你厲害");
             $('#Q').append($winEND);
+            $('#data').empty();
+            for (var i = 0; i < card.length; i++) {
+                $img = $('<img>').attr('src', './poker/pic' + card[i] + '.png');
+                $col = $('<div>').attr('class', 'col-2 text-center').append($img);
+                $('#data').append($col);
+            }
             again();
         }
 
