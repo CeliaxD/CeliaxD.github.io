@@ -1,0 +1,14 @@
+table {
+    border: none;
+}
+
+td {
+    background-color: lightgray;
+    text-align: center;
+}
+
+th {
+    background-color: #666;
+    color: white;
+    width: 120px;
+}
