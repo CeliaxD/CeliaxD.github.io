@@ -1,0 +1,19 @@
+#banner {
+    text-align: center;
+    background: #ff8485;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+td {
+    width: 50%;
+    font-family: Microsoft JhengHei;
+    line-height: 27px;
+}
+
+#me {
+    width: 80%;
+}
