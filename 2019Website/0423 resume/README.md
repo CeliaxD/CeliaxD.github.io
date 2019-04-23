@@ -12,7 +12,7 @@
 模板網站是全黑，沒有邊界也沒關係，但我把背景改白的之後，沒邊界會顯得很有壓迫感，故在整頁加了padding。其他區塊的邊界也有微調。
 
 4.	選單：
-右側選單原本沒有小選項，但我在Illustration底下加了Original和Fan art兩個小選項
+右側選單原本沒有小選項，但我在Illustration底下加了Original和Fan art兩個小選項，用了Bootstrap的data-toggle="collapse"
 
 5.	影片：
 原本這版型沒有影片，但為了Animation那個頁面，我去找了Boostrap embeds的語法
