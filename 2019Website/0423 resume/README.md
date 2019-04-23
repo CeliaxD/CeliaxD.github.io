@@ -1,4 +1,4 @@
-套用的模板：https://colorlib.com/wp/template/shutter/
+模板來源：https://colorlib.com/wp/template/shutter/ 
 因為想放置大量圖片，故採用此模板
 
 修改的部分：
