@@ -61,6 +61,7 @@ a:hover {
 }
 
 footer {
+    margin-bottom: 30px;
     margin-top: 50px;
     border-top-style: solid;
     border-top-width: 1px;
