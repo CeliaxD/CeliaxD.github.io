@@ -1,0 +1,137 @@
+#add_cart {
+    font-size: 12px;
+}
+
+.btn-info {
+    background-color: #5cc7c7;
+    border-color: #5cc7c7;
+}
+
+#cart {
+    position: fixed;
+    border-radius: 30px;
+    right: 20px;
+    bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 17px;
+    font-size: 25px;
+    background: rgba(92, 199, 199, 0.9);
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.jumbotron {
+    background-color: #5cc7c7;
+    color: white;
+}
+
+a {
+    color: #5cc7c7;
+}
+
+a:hover {
+    color: #28899b;
+}
+
+.page-link:hover {
+    color: #28899b;
+}
+
+.page-link {
+    color: #5cc7c7;
+}
+
+.page-link:focus {
+    background-color: #5cc7c7;
+    border-color: #5cc7c7;
+    color: #fff;
+    box-shadow: 0 0 0 0;
+}
+
+.page-item.active .page-link {
+    background-color: #5cc7c7;
+    border-color: #5cc7c7;
+}
+
+.page-item.active {
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Microsoft JhengHei;
+}
+
+.name {
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    color: #212121;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.price {
+    color: #ff883f;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.image {
+    width: 133px;
+    height: 133px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+
+.item {
+    height: 300px;
+    position: relative;
+    border: none;
+    background: #fff;
+    text-align: center;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    margin-bottom: 23px;
+    margin-left: 14px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.item:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+    transform: translate3d(-5px, -5px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
