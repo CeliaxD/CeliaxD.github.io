@@ -1,0 +1,104 @@
+div {
+    width: -webkit-fill-available;
+}
+
+body {
+    background-image: url('../img/wood.jpg');
+    background-size: cover;
+    font-family: Microsoft JhengHei;
+    z-index: -1;
+}
+
+body:hover {
+    cursor: url(../img/slipper_A.cur), auto;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+h5 {
+    margin-bottom: 1.8rem;
+}
+
+.menu_btn:hover {
+    background-color: #efd072;
+    border-color: #efd072;
+    color: #784848;
+    opacity: 0.8;
+    cursor: url(../img/slipper_B.cur), auto;
+}
+
+.menu_btn {
+    background-color: white;
+    border-color: white;
+    color: #bb771b;
+    opacity: 0.8;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.hide {
+    /* width: 120px; */
+    z-index: 1;
+    background-image: url('../img/hide.jpg');
+}
+
+#hideRight {
+    left: 0px;
+}
+
+#roach {
+    position: relative;
+    /* 不加這句元素不能動 */
+    width: 120px;
+    height: 80px;
+    background-image: url('../img/roach.gif');
+    background-size: cover;
+    cursor: pointer;
+    z-index: 0;
+    cursor: url(../img/slipper_B.cur), auto;
+}
+
+#greenRoach {
+    position: relative;
+    /* 不加這句元素不能動 */
+    width: 120px;
+    height: 80px;
+    background-image: url('../img/greenRoach.gif');
+    background-size: cover;
+    cursor: pointer;
+    z-index: 0;
+    cursor: url(../img/slipper_B.cur), auto;
+}
+
+.toRight {
+    transform: scaleX(-1);
+}
+
+.modal-diologue {
+    margin-top: 50px;
+}
+
+.modal-title {
+    color: #6f3c3c;
+}
+
+#modal-close {
+    background-color: #6f3c3c;
+    border-color: #6f3c3c;
+    color: #ffffff;
+}
+
+#modal-close:hover {
+    background-color: #ffe68e;
+    border-color: #ffe68e;
+    color: #9e6a4f;
+    cursor: url(../img/slipper_B.cur), auto;
+}
