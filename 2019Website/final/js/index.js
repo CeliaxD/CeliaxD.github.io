@@ -84,7 +84,7 @@
         // 生成一般蟑螂
         var newRoach = () => {
             $("#AllRoach>#ground").remove()
-            for (var i = 1; i <= 4; i++) {
+            for (var i = 1; i <= 5; i++) {
                 //生成蟑螂 並放上跑道
                 let distance = rand(90, 110)
                 $roach = $('<div>').attr('id', 'roach')
@@ -98,13 +98,13 @@
                     $roach.delay(rand(0, 300))
                     $roach.animate({
                         left: (pageWidth - 90)
-                    }, (rand(2500, 2300) - 120 * f))
+                    }, (rand(2500, 2300) - 200 * f))
                     $roach.fadeOut(30)
                 } else {
                     $roach.attr('class', 'toLeft').attr('style', 'left:' + (pageWidth - 120) + 'px;');
                     $roach.animate({
                         left: 0
-                    }, (rand(2500, 2300) - 120 * f))
+                    }, (rand(2500, 2300) - 200 * f))
                     $roach.fadeOut(30)
                 }
 
