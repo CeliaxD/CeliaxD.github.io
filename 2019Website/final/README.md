@@ -7,7 +7,7 @@
 打完六隻蟑螂後，會進入結束頁面，可選擇再玩一次或複習學到的小知識。
 
 3. 技術：
-我用了setInterval, clearInterval還有Jquery的animate, delay, attr等功能。
+我用了setInterval, clearInterval還有Jquery的animate, delay, .one()等功能。
 也應用了老師上課教的隨機及洗牌的技巧，
 讓每隻蟑螂的移動速度與出現時間略顯不同，也讓小知識隨機排序。
 
